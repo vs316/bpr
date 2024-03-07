@@ -45,9 +45,10 @@
 /* Remove blue highlight on :active */
 *:active {
   outline: none;
-}
-*:active {
+
   -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
 }
 
 html {

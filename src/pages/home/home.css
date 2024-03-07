@@ -12,9 +12,10 @@
 /* Remove blue highlight on :active */
 *:active {
   outline: none;
-}
-*:active {
+
   -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
 }
 
 .main__header-container {
@@ -120,10 +121,6 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.map-location {
-  color: hsl(var(--primary));
-}
-
 .ptb {
   margin-top: 7.5rem;
   background: transparent;
@@ -151,6 +148,8 @@
 
 .link-small a {
   color: hsl(var(--primary));
+  display: block;
+  margin-bottom: 5px;
 }
 
 .inner-header-wrapper {
@@ -196,11 +195,6 @@
 
 .footer a:hover {
   color: #000;
-}
-
-.link-small a {
-  display: block;
-  margin-bottom: 5px;
 }
 
 .main__footer {
