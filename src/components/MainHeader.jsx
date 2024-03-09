@@ -19,8 +19,8 @@ const MainHeader = () => {
 
   const imageUrls = useMemo(
     () => [
-      require("../images/slide1.jpg"),
-      require("../images/slide2.jpg"),
+      require("../components/images/slide1.jpg"),
+      require("./images/slide2.jpg"),
       // Add more image URLs if needed
     ],
     []
